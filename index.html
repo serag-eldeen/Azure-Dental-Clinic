@@ -1,0 +1,3610 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="theme-color" content="#0EA5E9">
+<title>Azure Dental Clinic | عيادة أزور لطب الأسنان — ميت غمر</title>
+<meta name="description" content="عيادة أزور لطب الأسنان في ميت غمر — نخبة من أخصائيي مستشفى ميت غمر العام، أحدث التقنيات، علاج بدون ألم وتعقيم صارم. احجز موعدك الآن.">
+<meta name="keywords" content="عيادة أسنان, ميت غمر, زراعة الأسنان, تقويم, هوليود سمايل, حشو العصب, تجميل الأسنان">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Azure Dental Clinic — عيادة أزور لطب الأسنان">
+<meta property="og:description" content="الابتسامة التي تستحقها تبدأ هنا. علاج بدون ألم، تعقيم صارم، أحدث التقنيات في ميت غمر.">
+<meta property="og:locale" content="ar_EG">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Azure Dental Clinic — عيادة أزور لطب الأسنان">
+<meta name="twitter:description" content="الابتسامة التي تستحقها تبدأ هنا.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Azure Dental Clinic",
+  "nameAr": "عيادة أزور لطب الأسنان",
+  "image": "",
+  "telephone": "+201039591109",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "شارع 26 يوليو، برج فريدة، أمام سلم المنصورة، خلف صيدلية وجيه",
+    "addressLocality": "ميت غمر",
+    "addressCountry": "EG"
+  },
+  "openingHours": "Sa-Th 14:00-22:00",
+  "priceRange": "$$"
+}
+</script>
+
+<style>
+/* ============================================
+   AZURE DENTAL CLINIC — DESIGN SYSTEM
+   ============================================ */
+
+:root {
+  /* Color Palette */
+  --c-primary: #0EA5E9;
+  --c-secondary: #2563EB;
+  --c-accent: #38BDF8;
+  --c-dark: #0F172A;
+  --c-gray: #64748B;
+  --c-gray-light: #94A3B8;
+  --c-border: #E2E8F0;
+  --c-bg: #F8FAFC;
+  --c-card: #FFFFFF;
+  --c-success: #10B981;
+  --c-warning: #F59E0B;
+  --c-error: #EF4444;
+
+  /* Gradients */
+  --grad-primary: linear-gradient(135deg, #0EA5E9 0%, #2563EB 100%);
+  --grad-accent: linear-gradient(135deg, #38BDF8 0%, #0EA5E9 100%);
+  --grad-soft: linear-gradient(180deg, #F8FAFC 0%, #EFF6FF 100%);
+
+  /* Typography */
+  --font-ar: 'Cairo', 'IBM Plex Sans Arabic', system-ui, sans-serif;
+  --font-en: 'Inter', system-ui, sans-serif;
+
+  /* Spacing Scale (8px system) */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 24px;
+  --s-6: 32px;
+  --s-7: 48px;
+  --s-8: 64px;
+  --s-9: 96px;
+  --s-10: 128px;
+
+  /* Radii */
+  --r-sm: 8px;
+  --r-md: 14px;
+  --r-lg: 20px;
+  --r-xl: 28px;
+  --r-2xl: 36px;
+  --r-full: 9999px;
+
+  /* Shadows — soft only */
+  --sh-sm: 0 1px 2px rgba(15, 23, 42, 0.04), 0 2px 8px rgba(15, 23, 42, 0.04);
+  --sh-md: 0 4px 12px rgba(15, 23, 42, 0.06), 0 10px 30px rgba(15, 23, 42, 0.06);
+  --sh-lg: 0 8px 24px rgba(15, 23, 42, 0.08), 0 20px 60px rgba(14, 165, 233, 0.10);
+  --sh-xl: 0 20px 50px rgba(15, 23, 42, 0.10), 0 40px 100px rgba(14, 165, 233, 0.14);
+  --sh-glow: 0 8px 32px rgba(14, 165, 233, 0.35);
+
+  /* Transitions */
+  --t-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --t-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --t-reveal: 450ms cubic-bezier(0.16, 1, 0.3, 1);
+  --t-section: 650ms cubic-bezier(0.16, 1, 0.3, 1);
+  --t-hero: 900ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Layout */
+  --max-w: 1280px;
+  --nav-h: 80px;
+}
+
+/* ============================================
+   RESET & BASE
+   ============================================ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  scroll-padding-top: calc(var(--nav-h) + 20px);
+}
+
+body {
+  font-family: var(--font-ar);
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--c-dark);
+  background: var(--c-bg);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img { max-width: 100%; display: block; }
+button { font-family: inherit; cursor: pointer; border: none; background: none; }
+a { color: inherit; text-decoration: none; }
+ul { list-style: none; }
+
+::selection { background: rgba(14, 165, 233, 0.25); color: var(--c-dark); }
+
+/* ============================================
+   BACKGROUND DECORATIONS (Global)
+   ============================================ */
+
+.bg-decor {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.bg-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.4;
+  will-change: transform;
+}
+
+.bg-blob-1 {
+  width: 600px; height: 600px;
+  background: radial-gradient(circle, rgba(14, 165, 233, 0.45) 0%, transparent 70%);
+  top: -200px; right: -150px;
+  animation: floatBlob1 28s ease-in-out infinite;
+}
+
+.bg-blob-2 {
+  width: 500px; height: 500px;
+  background: radial-gradient(circle, rgba(37, 99, 235, 0.30) 0%, transparent 70%);
+  top: 40%; left: -200px;
+  animation: floatBlob2 32s ease-in-out infinite;
+}
+
+.bg-blob-3 {
+  width: 700px; height: 700px;
+  background: radial-gradient(circle, rgba(56, 189, 248, 0.25) 0%, transparent 70%);
+  bottom: -300px; right: 20%;
+  animation: floatBlob3 36s ease-in-out infinite;
+}
+
+@keyframes floatBlob1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-40px, 60px) scale(1.05); }
+}
+@keyframes floatBlob2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(50px, -40px) scale(1.08); }
+}
+@keyframes floatBlob3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-60px, -50px) scale(0.95); }
+}
+
+/* Subtle grain texture */
+.bg-grain {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+}
+
+/* ============================================
+   LAYOUT HELPERS
+   ============================================ */
+
+.container {
+  width: 100%;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding-inline: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.section {
+  padding-block: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.section-sm { padding-block: 64px; }
+.section-lg { padding-block: 140px; }
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: var(--r-full);
+  background: rgba(14, 165, 233, 0.08);
+  color: var(--c-secondary);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border: 1px solid rgba(14, 165, 233, 0.15);
+  margin-bottom: 20px;
+}
+
+.eyebrow svg { width: 16px; height: 16px; }
+
+.section-title {
+  font-size: clamp(32px, 5vw, 52px);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--c-dark);
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  font-size: clamp(16px, 2vw, 19px);
+  color: var(--c-gray);
+  max-width: 640px;
+  line-height: 1.7;
+}
+
+.section-head {
+  margin-bottom: 60px;
+  max-width: 760px;
+}
+
+.section-head.center {
+  margin-inline: auto;
+  text-align: center;
+}
+
+.gradient-text {
+  background: var(--grad-primary);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* ============================================
+   BUTTONS
+   ============================================ */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 28px;
+  border-radius: var(--r-xl);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+  transition: transform var(--t-normal), box-shadow var(--t-normal), background var(--t-normal);
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  will-change: transform;
+}
+
+.btn svg { width: 20px; height: 20px; stroke-width: 2.2; }
+
+.btn-primary {
+  background: var(--grad-primary);
+  color: white;
+  box-shadow: var(--sh-glow);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(14, 165, 233, 0.45);
+}
+
+.btn-primary::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,0.25) 0%, transparent 60%);
+  opacity: 0;
+  transition: opacity var(--t-normal);
+}
+.btn-primary:hover::after { opacity: 1; }
+
+.btn-ghost {
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--c-dark);
+  border: 1px solid var(--c-border);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.btn-ghost:hover {
+  transform: translateY(-2px);
+  border-color: rgba(14, 165, 233, 0.4);
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: var(--sh-md);
+}
+
+.btn-whatsapp {
+  background: #25D363;
+  color: white;
+  box-shadow: 0 8px 24px rgba(37, 211, 99, 0.35);
+}
+.btn-whatsapp:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(37, 211, 99, 0.45);
+}
+
+.btn-lg { padding: 18px 34px; font-size: 17px; }
+.btn-sm { padding: 10px 18px; font-size: 14px; border-radius: var(--r-lg); }
+
+/* ============================================
+   GLASS CARD
+   ============================================ */
+
+.glass {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: var(--sh-md);
+}
+
+/* ============================================
+   SCROLL PROGRESS BAR
+   ============================================ */
+
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: var(--grad-primary);
+  z-index: 9999;
+  transition: width 80ms linear;
+  box-shadow: 0 0 12px rgba(14, 165, 233, 0.6);
+}
+
+/* ============================================
+   NAVBAR
+   ============================================ */
+
+.navbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: var(--nav-h);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  transition: all var(--t-normal);
+  padding-inline: 24px;
+}
+
+.navbar.scrolled {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.6);
+  height: 68px;
+  box-shadow: 0 2px 20px rgba(15, 23, 42, 0.04);
+}
+
+.navbar-inner {
+  width: 100%;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: var(--c-dark);
+}
+
+.logo-mark {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: var(--grad-primary);
+  display: grid;
+  place-items: center;
+  color: white;
+  box-shadow: var(--sh-glow);
+  flex-shrink: 0;
+}
+
+.logo-mark svg { width: 22px; height: 22px; stroke-width: 2.4; }
+
+.logo-text { display: flex; flex-direction: column; line-height: 1.1; }
+.logo-text small { font-size: 11px; color: var(--c-gray); font-weight: 500; letter-spacing: 0.05em; }
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nav-link {
+  padding: 10px 16px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--c-dark);
+  border-radius: var(--r-md);
+  position: relative;
+  transition: color var(--t-fast), background var(--t-fast);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background: var(--grad-primary);
+  border-radius: 2px;
+  transition: width var(--t-normal);
+}
+
+.nav-link:hover { color: var(--c-primary); }
+.nav-link:hover::after { width: 60%; }
+.nav-link.active { color: var(--c-primary); }
+.nav-link.active::after { width: 60%; }
+
+.nav-cta { display: flex; align-items: center; gap: 12px; }
+
+.nav-phone {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--c-dark);
+  padding: 8px 14px;
+  border-radius: var(--r-md);
+  transition: background var(--t-fast);
+}
+.nav-phone:hover { background: rgba(14, 165, 233, 0.08); color: var(--c-primary); }
+.nav-phone svg { width: 18px; height: 18px; color: var(--c-primary); }
+
+.mobile-toggle {
+  display: none;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--r-md);
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid var(--c-border);
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+}
+.mobile-toggle svg { width: 22px; height: 22px; }
+
+.mobile-menu {
+  position: fixed;
+  inset: 0;
+  background: rgba(248, 250, 252, 0.95);
+  backdrop-filter: blur(20px);
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--t-normal);
+}
+.mobile-menu.open { opacity: 1; pointer-events: auto; }
+
+.mobile-menu .nav-link {
+  font-size: 22px;
+  padding: 14px 24px;
+}
+
+.mobile-close {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--r-md);
+  background: white;
+  border: 1px solid var(--c-border);
+  display: grid;
+  place-items: center;
+}
+
+/* ============================================
+   HERO
+   ============================================ */
+
+.hero {
+  padding-top: calc(var(--nav-h) + 60px);
+  padding-bottom: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.hero-content { position: relative; z-index: 2; }
+
+.hero-title {
+  font-size: clamp(36px, 5.5vw, 64px);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  color: var(--c-dark);
+  margin-bottom: 24px;
+}
+
+.hero-title .line {
+  display: block;
+  overflow: hidden;
+}
+
+.hero-title .line-inner {
+  display: inline-block;
+  animation: titleReveal var(--t-hero) cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.hero-title .line:nth-child(2) .line-inner { animation-delay: 150ms; }
+.hero-title .line:nth-child(3) .line-inner { animation-delay: 300ms; }
+
+@keyframes titleReveal {
+  from { transform: translateY(100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.hero-desc {
+  font-size: clamp(16px, 2vw, 19px);
+  line-height: 1.8;
+  color: var(--c-gray);
+  max-width: 540px;
+  margin-bottom: 32px;
+  animation: fadeUp 900ms 500ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes fadeUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.trust-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 36px;
+  animation: fadeUp 900ms 650ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.trust-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: var(--r-full);
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(14, 165, 233, 0.15);
+  backdrop-filter: blur(10px);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--c-dark);
+  transition: all var(--t-normal);
+}
+
+.trust-pill svg { width: 15px; height: 15px; color: var(--c-primary); stroke-width: 2.4; }
+
+.trust-pill:hover {
+  transform: translateY(-2px);
+  border-color: rgba(14, 165, 233, 0.4);
+  box-shadow: var(--sh-sm);
+  background: white;
+}
+
+.hero-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  animation: fadeUp 900ms 800ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.hero-social {
+  margin-top: 40px;
+  padding-top: 32px;
+  border-top: 1px solid var(--c-border);
+  display: flex;
+  gap: 32px;
+  animation: fadeUp 900ms 950ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.social-item { display: flex; flex-direction: column; gap: 4px; }
+.social-item strong { font-size: 24px; font-weight: 800; color: var(--c-dark); letter-spacing: -0.02em; }
+.social-item strong .gradient-text { display: inline; }
+.social-item span { font-size: 13px; color: var(--c-gray); font-weight: 500; }
+
+/* Hero Visual */
+.hero-visual {
+  position: relative;
+  z-index: 1;
+  animation: heroImageReveal 1200ms 400ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes heroImageReveal {
+  from { transform: scale(0.92) translateY(40px); opacity: 0; filter: blur(10px); }
+  to { transform: scale(1) translateY(0); opacity: 1; filter: blur(0); }
+}
+
+.hero-image-wrap {
+  position: relative;
+  border-radius: var(--r-2xl);
+  overflow: hidden;
+  box-shadow: var(--sh-xl);
+  aspect-ratio: 4 / 5;
+  background: linear-gradient(135deg, #E0F2FE 0%, #DBEAFE 100%);
+}
+
+.hero-image-wrap::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 50%, rgba(15, 23, 42, 0.25) 100%);
+  pointer-events: none;
+}
+
+.hero-image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hero-image-wrap:hover img { transform: scale(1.04); }
+
+/* Floating glass cards around hero image */
+.float-card {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: var(--r-lg);
+  padding: 16px 18px;
+  box-shadow: var(--sh-lg);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 3;
+  animation: floatCard 6s ease-in-out infinite;
+}
+
+.float-card-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--r-md);
+  background: var(--grad-primary);
+  display: grid;
+  place-items: center;
+  color: white;
+  flex-shrink: 0;
+}
+.float-card-icon svg { width: 20px; height: 20px; stroke-width: 2.2; }
+
+.float-card-text { display: flex; flex-direction: column; line-height: 1.2; }
+.float-card-text strong { font-size: 18px; font-weight: 800; color: var(--c-dark); }
+.float-card-text span { font-size: 12px; color: var(--c-gray); font-weight: 500; }
+
+.float-card-1 {
+  top: 8%;
+  left: -40px;
+  animation-delay: 0s;
+}
+.float-card-2 {
+  bottom: 18%;
+  right: -40px;
+  animation-delay: 1.5s;
+}
+.float-card-3 {
+  bottom: -20px;
+  left: 20%;
+  animation-delay: 3s;
+}
+
+@keyframes floatCard {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Hero decorative blob behind image */
+.hero-decor {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(14, 165, 233, 0.25) 0%, transparent 70%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  filter: blur(60px);
+}
+
+/* ============================================
+   TRUST BAR
+   ============================================ */
+
+.trust-bar {
+  padding-block: 40px;
+  border-block: 1px solid var(--c-border);
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.trust-bar-inner {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
+  align-items: center;
+}
+
+.trust-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  padding: 12px;
+  border-left: 1px solid var(--c-border);
+  transition: transform var(--t-normal);
+}
+.trust-item:first-child { border-left: none; }
+.trust-item:hover { transform: translateY(-3px); }
+
+.trust-item-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--r-md);
+  background: rgba(14, 165, 233, 0.08);
+  display: grid;
+  place-items: center;
+  color: var(--c-primary);
+  transition: all var(--t-normal);
+}
+.trust-item-icon svg { width: 22px; height: 22px; stroke-width: 1.8; }
+.trust-item:hover .trust-item-icon {
+  background: var(--grad-primary);
+  color: white;
+  transform: scale(1.08);
+}
+
+.trust-item-text { font-size: 14px; font-weight: 600; color: var(--c-dark); }
+
+/* ============================================
+   LIMITED OFFER SECTION
+   ============================================ */
+
+.offer {
+  padding-block: 100px;
+  position: relative;
+}
+
+.offer-card {
+  background: linear-gradient(135deg, #0EA5E9 0%, #2563EB 60%, #1E40AF 100%);
+  border-radius: var(--r-2xl);
+  padding: 64px;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  box-shadow: 0 30px 80px rgba(14, 165, 233, 0.30);
+}
+
+.offer-card::before {
+  content: '';
+  position: absolute;
+  width: 600px; height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,255,255,0.18) 0%, transparent 70%);
+  top: -200px; right: -200px;
+  pointer-events: none;
+}
+.offer-card::after {
+  content: '';
+  position: absolute;
+  width: 400px; height: 400px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(56, 189, 248, 0.25) 0%, transparent 70%);
+  bottom: -150px; left: -100px;
+  pointer-events: none;
+}
+
+.offer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 60px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.offer-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: var(--r-full);
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  backdrop-filter: blur(10px);
+}
+.offer-tag svg { width: 16px; height: 16px; }
+
+.offer-title {
+  font-size: clamp(28px, 4vw, 44px);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+}
+
+.offer-desc {
+  font-size: 17px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 28px;
+  max-width: 480px;
+}
+
+.offer-perks {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.offer-perk {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.offer-perk svg {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.18);
+  padding: 4px;
+  border-radius: 50%;
+  box-sizing: content-box;
+}
+
+.offer-cta { display: flex; flex-wrap: wrap; gap: 12px; }
+
+.offer-cta .btn-ghost {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  backdrop-filter: blur(10px);
+}
+.offer-cta .btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.22);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+.offer-cta .btn-primary { background: white; color: var(--c-secondary); box-shadow: 0 8px 24px rgba(0,0,0,0.15); }
+.offer-cta .btn-primary:hover { background: #F8FAFC; }
+
+/* Offer side — countdown + urgency */
+.offer-side {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--r-xl);
+  padding: 32px;
+  backdrop-filter: blur(20px);
+}
+
+.offer-count-label {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.countdown {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.count-box {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: var(--r-md);
+  padding: 14px 8px;
+  text-align: center;
+}
+
+.count-num {
+  font-size: 28px;
+  font-weight: 800;
+  color: white;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  font-family: var(--font-en);
+}
+
+.count-label {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.urgency {
+  margin-top: 24px;
+}
+
+.urgency-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+.urgency-head span { font-size: 13px; color: rgba(255,255,255,0.85); font-weight: 600; }
+.urgency-head strong { font-size: 18px; color: white; font-weight: 800; }
+
+.progress-bar {
+  height: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: var(--r-full);
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 36%;
+  background: linear-gradient(90deg, #FBBF24 0%, #F59E0B 100%);
+  border-radius: var(--r-full);
+  position: relative;
+  animation: progressPulse 2.5s ease-in-out infinite;
+}
+
+@keyframes progressPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(251, 191, 36, 0.6); }
+  50% { box-shadow: 0 0 0 6px rgba(251, 191, 36, 0); }
+}
+
+/* ============================================
+   SERVICES — BENTO GRID
+   ============================================ */
+
+.services { background: var(--c-bg); }
+
+.bento {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 240px;
+  gap: 20px;
+}
+
+.service-card {
+  position: relative;
+  border-radius: var(--r-xl);
+  overflow: hidden;
+  background: var(--c-card);
+  border: 1px solid var(--c-border);
+  box-shadow: var(--sh-sm);
+  transition: transform var(--t-normal), box-shadow var(--t-normal), border-color var(--t-normal);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--sh-lg);
+  border-color: rgba(14, 165, 233, 0.3);
+}
+
+.service-img {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  background: linear-gradient(135deg, #E0F2FE 0%, #DBEAFE 100%);
+}
+
+.service-img img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 800ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.service-card:hover .service-img img { transform: scale(1.08); }
+
+.service-img::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 30%, rgba(15, 23, 42, 0.7) 100%);
+}
+
+.service-num {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--c-dark);
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  font-size: 14px;
+  z-index: 2;
+  backdrop-filter: blur(10px);
+}
+
+.service-icon {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--r-md);
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--c-primary);
+  display: grid;
+  place-items: center;
+  z-index: 2;
+  backdrop-filter: blur(10px);
+  transition: all var(--t-normal);
+}
+.service-icon svg { width: 22px; height: 22px; stroke-width: 2; }
+.service-card:hover .service-icon {
+  background: var(--grad-primary);
+  color: white;
+  transform: scale(1.08) rotate(-4deg);
+}
+
+.service-body {
+  padding: 20px;
+  background: var(--c-card);
+}
+
+.service-title {
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--c-dark);
+  margin-bottom: 6px;
+  letter-spacing: -0.01em;
+}
+
+.service-desc {
+  font-size: 14px;
+  color: var(--c-gray);
+  line-height: 1.55;
+  margin-bottom: 12px;
+}
+
+.service-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--c-primary);
+  transition: gap var(--t-fast);
+}
+.service-link svg { width: 14px; height: 14px; stroke-width: 2.4; }
+.service-card:hover .service-link { gap: 10px; }
+
+/* Bento layout — different sizes */
+.bento .service-card:nth-child(1) { grid-column: span 2; grid-row: span 2; }
+.bento .service-card:nth-child(4) { grid-column: span 2; }
+.bento .service-card:nth-child(6) { grid-column: span 2; }
+
+/* Large card content adjustment */
+.bento .service-card:nth-child(1) .service-title { font-size: 26px; }
+.bento .service-card:nth-child(1) .service-desc { font-size: 15px; }
+
+/* ============================================
+   WHY CHOOSE US — Alternating Split
+   ============================================ */
+
+.why { background: linear-gradient(180deg, #F8FAFC 0%, #EFF6FF 100%); }
+
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.split:last-child { margin-bottom: 0; }
+.split.reverse .split-text { order: 2; }
+
+.split-text { max-width: 520px; }
+
+.split-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: var(--r-full);
+  background: rgba(14, 165, 233, 0.1);
+  color: var(--c-secondary);
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.split-eyebrow svg { width: 16px; height: 16px; }
+
+.split-title {
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-bottom: 18px;
+  color: var(--c-dark);
+}
+
+.split-desc {
+  font-size: 17px;
+  line-height: 1.8;
+  color: var(--c-gray);
+  margin-bottom: 24px;
+}
+
+.split-features {
+  display: grid;
+  gap: 14px;
+  margin-bottom: 28px;
+}
+
+.split-feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 15px;
+  color: var(--c-dark);
+  font-weight: 500;
+}
+
+.split-feature-check {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(16, 185, 129, 0.12);
+  color: var(--c-success);
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.split-feature-check svg { width: 14px; height: 14px; stroke-width: 3; }
+
+.split-visual {
+  position: relative;
+  border-radius: var(--r-2xl);
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  box-shadow: var(--sh-xl);
+}
+
+.split-visual img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.split-visual:hover img { transform: scale(1.06); }
+
+.split-visual::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 50%, rgba(15, 23, 42, 0.15) 100%);
+}
+
+.split-visual-badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 10px 16px;
+  border-radius: var(--r-lg);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--c-dark);
+  box-shadow: var(--sh-md);
+  z-index: 2;
+}
+.split-visual-badge svg { width: 18px; height: 18px; color: var(--c-primary); }
+
+/* ============================================
+   BEFORE & AFTER SLIDER
+   ============================================ */
+
+.ba-section { background: var(--c-bg); }
+
+.ba-slider {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: var(--r-2xl);
+  overflow: hidden;
+  box-shadow: var(--sh-xl);
+  aspect-ratio: 16 / 10;
+  cursor: ew-resize;
+  user-select: none;
+}
+
+.ba-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.ba-before {
+  clip-path: inset(0 50% 0 0);
+}
+
+.ba-label {
+  position: absolute;
+  top: 20px;
+  padding: 8px 16px;
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(10px);
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: var(--r-full);
+  z-index: 2;
+  letter-spacing: 0.02em;
+}
+.ba-label-before { right: 20px; }
+.ba-label-after { left: 20px; }
+
+.ba-handle {
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 50%;
+  width: 4px;
+  background: white;
+  transform: translateX(-50%);
+  z-index: 3;
+  box-shadow: 0 0 12px rgba(0,0,0,0.3);
+}
+
+.ba-handle-knob {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: white;
+  display: grid;
+  place-items: center;
+  box-shadow: var(--sh-lg);
+  color: var(--c-primary);
+}
+.ba-handle-knob svg { width: 24px; height: 24px; stroke-width: 2.4; }
+
+/* ============================================
+   PROCESS TIMELINE
+   ============================================ */
+
+.process {
+  background: linear-gradient(180deg, #EFF6FF 0%, #F8FAFC 100%);
+}
+
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  position: relative;
+  margin-top: 60px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 10%;
+  right: 10%;
+  height: 2px;
+  background: linear-gradient(90deg, var(--c-primary) 0%, var(--c-secondary) 50%, var(--c-border) 100%);
+  z-index: 0;
+}
+
+.timeline-step {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 0 12px;
+}
+
+.step-num {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid var(--c-border);
+  margin: 0 auto 20px;
+  display: grid;
+  place-items: center;
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--c-dark);
+  box-shadow: var(--sh-md);
+  position: relative;
+  transition: all var(--t-normal);
+}
+
+.timeline-step:hover .step-num {
+  border-color: var(--c-primary);
+  transform: translateY(-4px);
+  box-shadow: var(--sh-glow);
+}
+
+.step-num::before {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  border: 2px solid rgba(14, 165, 233, 0.2);
+  opacity: 0;
+  transition: opacity var(--t-normal);
+}
+.timeline-step:hover .step-num::before { opacity: 1; }
+
+.step-icon {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--grad-primary);
+  color: white;
+  display: grid;
+  place-items: center;
+  box-shadow: var(--sh-sm);
+}
+.step-icon svg { width: 18px; height: 18px; stroke-width: 2.2; }
+
+.step-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--c-dark);
+  margin-bottom: 8px;
+}
+
+.step-desc {
+  font-size: 14px;
+  color: var(--c-gray);
+  line-height: 1.6;
+}
+
+/* ============================================
+   DOCTORS
+   ============================================ */
+
+.doctors { background: var(--c-bg); }
+
+.doctors-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.doctor-card {
+  background: var(--c-card);
+  border: 1px solid var(--c-border);
+  border-radius: var(--r-xl);
+  overflow: hidden;
+  box-shadow: var(--sh-sm);
+  transition: transform var(--t-normal), box-shadow var(--t-normal), border-color var(--t-normal);
+}
+
+.doctor-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--sh-lg);
+  border-color: rgba(14, 165, 233, 0.3);
+}
+
+.doctor-photo {
+  aspect-ratio: 4 / 5;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #E0F2FE 0%, #DBEAFE 100%);
+}
+
+.doctor-photo img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.doctor-card:hover .doctor-photo img { transform: scale(1.05); }
+
+.doctor-photo::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 50%, rgba(15, 23, 42, 0.5) 100%);
+}
+
+.doctor-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 6px 12px;
+  border-radius: var(--r-full);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--c-primary);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  z-index: 2;
+}
+.doctor-badge svg { width: 14px; height: 14px; }
+
+.doctor-body { padding: 24px; }
+
+.doctor-name {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--c-dark);
+  margin-bottom: 4px;
+  letter-spacing: -0.01em;
+}
+
+.doctor-spec {
+  font-size: 14px;
+  color: var(--c-primary);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.doctor-bio {
+  font-size: 14px;
+  color: var(--c-gray);
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.doctor-meta {
+  display: flex;
+  gap: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--c-border);
+  font-size: 13px;
+}
+
+.doctor-meta-item { display: flex; align-items: center; gap: 6px; color: var(--c-gray); font-weight: 600; }
+.doctor-meta-item svg { width: 16px; height: 16px; color: var(--c-primary); }
+
+/* ============================================
+   STATISTICS
+   ============================================ */
+
+.stats {
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.stats::before {
+  content: '';
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(14, 165, 233, 0.18) 0%, transparent 70%);
+  top: -300px;
+  right: -200px;
+  pointer-events: none;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.stat-item {
+  text-align: center;
+  position: relative;
+  padding: 12px;
+}
+
+.stat-item:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 20%;
+  bottom: 20%;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.stat-num {
+  font-size: clamp(40px, 6vw, 64px);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  background: linear-gradient(135deg, #FFFFFF 0%, #38BDF8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+  font-family: var(--font-en);
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+}
+
+/* ============================================
+   TESTIMONIALS CAROUSEL
+   ============================================ */
+
+.testimonials { background: var(--c-bg); }
+
+.testi-carousel {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.testi-track {
+  display: flex;
+  transition: transform 600ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.testi-card {
+  flex: 0 0 100%;
+  padding: 0 12px;
+}
+
+.testi-inner {
+  background: var(--c-card);
+  border: 1px solid var(--c-border);
+  border-radius: var(--r-2xl);
+  padding: 48px;
+  box-shadow: var(--sh-md);
+  position: relative;
+  text-align: center;
+}
+
+.testi-quote-mark {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+  font-size: 80px;
+  line-height: 1;
+  color: rgba(14, 165, 233, 0.15);
+  font-family: serif;
+  font-weight: 800;
+}
+
+.testi-stars {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+.testi-stars svg { width: 22px; height: 22px; color: #F59E0B; fill: #F59E0B; }
+
+.testi-text {
+  font-size: clamp(18px, 2.2vw, 22px);
+  line-height: 1.7;
+  color: var(--c-dark);
+  font-weight: 500;
+  margin-bottom: 28px;
+  letter-spacing: -0.01em;
+}
+
+.testi-author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.testi-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--grad-primary);
+  color: white;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.testi-author-info { text-align: right; }
+.testi-author-name { font-size: 16px; font-weight: 700; color: var(--c-dark); }
+.testi-author-role { font-size: 13px; color: var(--c-gray); }
+
+.testi-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.testi-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: white;
+  border: 1px solid var(--c-border);
+  display: grid;
+  place-items: center;
+  color: var(--c-dark);
+  transition: all var(--t-normal);
+  box-shadow: var(--sh-sm);
+}
+.testi-btn:hover {
+  background: var(--grad-primary);
+  color: white;
+  border-color: transparent;
+  transform: scale(1.05);
+}
+.testi-btn svg { width: 20px; height: 20px; stroke-width: 2.4; }
+
+.testi-dots {
+  display: flex;
+  gap: 8px;
+}
+
+.testi-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--c-border);
+  transition: all var(--t-normal);
+  cursor: pointer;
+}
+.testi-dot.active {
+  background: var(--grad-primary);
+  width: 28px;
+  border-radius: var(--r-full);
+}
+
+/* ============================================
+   FAQ ACCORDION
+   ============================================ */
+
+.faq {
+  background: linear-gradient(180deg, #F8FAFC 0%, #EFF6FF 100%);
+}
+
+.faq-list {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  gap: 14px;
+}
+
+.faq-item {
+  background: var(--c-card);
+  border: 1px solid var(--c-border);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  transition: border-color var(--t-normal), box-shadow var(--t-normal);
+}
+.faq-item.open {
+  border-color: rgba(14, 165, 233, 0.3);
+  box-shadow: var(--sh-md);
+}
+
+.faq-q {
+  width: 100%;
+  padding: 22px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  text-align: right;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--c-dark);
+  cursor: pointer;
+}
+
+.faq-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(14, 165, 233, 0.1);
+  color: var(--c-primary);
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  transition: all var(--t-normal);
+}
+.faq-icon svg { width: 18px; height: 18px; stroke-width: 2.4; transition: transform var(--t-normal); }
+.faq-item.open .faq-icon { background: var(--grad-primary); color: white; }
+.faq-item.open .faq-icon svg { transform: rotate(45deg); }
+
+.faq-a {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height var(--t-section);
+}
+.faq-a-inner {
+  padding: 0 24px 24px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--c-gray);
+}
+
+/* ============================================
+   FINAL CTA
+   ============================================ */
+
+.final-cta {
+  padding-block: 120px;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%);
+}
+
+.final-cta::before {
+  content: '';
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(14, 165, 233, 0.25) 0%, transparent 70%);
+  top: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  filter: blur(40px);
+  pointer-events: none;
+}
+
+.final-cta-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.final-cta-title {
+  font-size: clamp(32px, 5vw, 56px);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  color: var(--c-dark);
+  margin-bottom: 20px;
+}
+
+.final-cta-desc {
+  font-size: clamp(16px, 2vw, 19px);
+  color: var(--c-gray);
+  line-height: 1.7;
+  margin-bottom: 36px;
+  max-width: 580px;
+  margin-inline: auto;
+}
+
+.final-cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.final-cta-trust {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  padding-top: 32px;
+  border-top: 1px solid rgba(14, 165, 233, 0.15);
+}
+
+.fct-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--c-dark);
+}
+.fct-item svg { width: 18px; height: 18px; color: var(--c-primary); stroke-width: 2.4; }
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+.footer {
+  background: linear-gradient(180deg, #0F172A 0%, #020617 100%);
+  color: rgba(255, 255, 255, 0.7);
+  padding-top: 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(14, 165, 233, 0.12) 0%, transparent 70%);
+  top: -200px;
+  right: -150px;
+  pointer-events: none;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  position: relative;
+  z-index: 1;
+}
+
+.footer-brand .logo { color: white; margin-bottom: 20px; }
+.footer-brand .logo-text small { color: rgba(255,255,255,0.5); }
+.footer-desc {
+  font-size: 15px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 24px;
+  max-width: 360px;
+}
+
+.footer-contact { display: grid; gap: 12px; }
+.footer-contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer-contact-item svg { width: 18px; height: 18px; color: var(--c-accent); flex-shrink: 0; margin-top: 2px; stroke-width: 2; }
+.footer-contact-item strong { color: white; font-weight: 700; display: block; margin-bottom: 2px; }
+
+.footer-col h4 {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: -0.01em;
+}
+
+.footer-links { display: grid; gap: 10px; }
+.footer-links a {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color var(--t-fast), padding var(--t-fast);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.footer-links a:hover {
+  color: var(--c-accent);
+  padding-right: 4px;
+}
+.footer-links a svg { width: 14px; height: 14px; opacity: 0; transition: opacity var(--t-fast); }
+.footer-links a:hover svg { opacity: 1; }
+
+.footer-social {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.footer-social a {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--r-md);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: grid;
+  place-items: center;
+  color: rgba(255, 255, 255, 0.7);
+  transition: all var(--t-normal);
+}
+.footer-social a:hover {
+  background: var(--grad-primary);
+  color: white;
+  border-color: transparent;
+  transform: translateY(-2px);
+}
+.footer-social a svg { width: 18px; height: 18px; }
+
+.footer-bottom {
+  padding-block: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  z-index: 1;
+}
+
+.footer-bottom-links { display: flex; gap: 20px; }
+.footer-bottom-links a:hover { color: var(--c-accent); }
+
+/* ============================================
+   FLOATING ELEMENTS
+   ============================================ */
+
+.floating-btns {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 900;
+}
+
+.float-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: white;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  transition: transform var(--t-normal), box-shadow var(--t-normal);
+  position: relative;
+}
+
+.float-btn:hover { transform: scale(1.08) translateY(-2px); }
+
+.float-btn-whatsapp {
+  background: #25D363;
+  box-shadow: 0 8px 24px rgba(37, 211, 99, 0.4);
+}
+.float-btn-whatsapp::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2px solid #25D363;
+  animation: pulseRing 2s ease-out infinite;
+}
+@keyframes pulseRing {
+  0% { transform: scale(1); opacity: 1; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+
+.float-btn-call {
+  background: var(--grad-primary);
+}
+
+.float-btn svg { width: 26px; height: 26px; stroke-width: 2; }
+
+.float-btn-label {
+  position: absolute;
+  right: 70px;
+  top: 50%;
+  transform: translateY(-50%) translateX(10px);
+  background: var(--c-dark);
+  color: white;
+  padding: 6px 12px;
+  border-radius: var(--r-md);
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: all var(--t-normal);
+}
+.float-btn:hover .float-btn-label {
+  opacity: 1;
+  transform: translateY(-50%) translateX(0);
+}
+
+/* Back to top */
+.back-top {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: white;
+  border: 1px solid var(--c-border);
+  display: grid;
+  place-items: center;
+  color: var(--c-dark);
+  box-shadow: var(--sh-md);
+  z-index: 900;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px);
+  transition: all var(--t-normal);
+}
+.back-top.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+.back-top:hover {
+  background: var(--grad-primary);
+  color: white;
+  border-color: transparent;
+  transform: translateY(-2px);
+}
+.back-top svg { width: 22px; height: 22px; stroke-width: 2.4; }
+
+/* Sticky mobile booking bar */
+.mobile-cta-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  border-top: 1px solid var(--c-border);
+  padding: 12px 16px;
+  display: none;
+  gap: 10px;
+  z-index: 800;
+}
+
+.mobile-cta-bar .btn { flex: 1; padding: 14px 20px; font-size: 15px; }
+
+/* ============================================
+   SCROLL REVEAL ANIMATIONS
+   ============================================ */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity var(--t-section), transform var(--t-section);
+  will-change: opacity, transform;
+}
+.reveal.revealed { opacity: 1; transform: translateY(0); }
+
+.reveal-blur {
+  opacity: 0;
+  filter: blur(10px);
+  transform: translateY(20px);
+  transition: opacity var(--t-section), filter var(--t-section), transform var(--t-section);
+}
+.reveal-blur.revealed { opacity: 1; filter: blur(0); transform: translateY(0); }
+
+.reveal-scale {
+  opacity: 0;
+  transform: scale(0.92);
+  transition: opacity var(--t-section), transform var(--t-section);
+}
+.reveal-scale.revealed { opacity: 1; transform: scale(1); }
+
+.stagger > * {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity var(--t-reveal), transform var(--t-reveal);
+}
+.stagger.revealed > *:nth-child(1) { transition-delay: 0ms; opacity: 1; transform: translateY(0); }
+.stagger.revealed > *:nth-child(2) { transition-delay: 80ms; opacity: 1; transform: translateY(0); }
+.stagger.revealed > *:nth-child(3) { transition-delay: 160ms; opacity: 1; transform: translateY(0); }
+.stagger.revealed > *:nth-child(4) { transition-delay: 240ms; opacity: 1; transform: translateY(0); }
+.stagger.revealed > *:nth-child(5) { transition-delay: 320ms; opacity: 1; transform: translateY(0); }
+.stagger.revealed > *:nth-child(6) { transition-delay: 400ms; opacity: 1; transform: translateY(0); }
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 1024px) {
+  .hero-grid { grid-template-columns: 1fr; gap: 60px; }
+  .hero-visual { max-width: 520px; margin: 0 auto; }
+  .offer-grid { grid-template-columns: 1fr; gap: 40px; }
+  .bento { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 220px; }
+  .bento .service-card:nth-child(1) { grid-column: span 2; grid-row: span 2; }
+  .bento .service-card:nth-child(4) { grid-column: span 2; }
+  .bento .service-card:nth-child(6) { grid-column: span 2; }
+  .split { grid-template-columns: 1fr; gap: 40px; }
+  .split.reverse .split-text { order: 0; }
+  .timeline { grid-template-columns: repeat(2, 1fr); gap: 40px; }
+  .timeline::before { display: none; }
+  .doctors-grid { grid-template-columns: repeat(2, 1fr); }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 32px; }
+  .stat-item:nth-child(2)::after { display: none; }
+  .footer-top { grid-template-columns: 1fr 1fr; gap: 40px; }
+  .footer-brand { grid-column: span 2; }
+  .nav-links, .nav-phone { display: none; }
+  .mobile-toggle { display: flex; }
+}
+
+@media (max-width: 640px) {
+  body { font-size: 16px; }
+  .section { padding-block: 70px; }
+  .container { padding-inline: 18px; }
+  .hero { padding-top: calc(var(--nav-h) + 30px); padding-bottom: 60px; }
+  .hero-social { gap: 20px; }
+  .social-item strong { font-size: 20px; }
+  .offer-card { padding: 32px 24px; }
+  .countdown { grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .count-num { font-size: 22px; }
+  .bento { grid-template-columns: 1fr; grid-auto-rows: 280px; }
+  .bento .service-card:nth-child(n) { grid-column: span 1; grid-row: span 1; }
+  .doctors-grid { grid-template-columns: 1fr; }
+  .stats-grid { grid-template-columns: 1fr 1fr; gap: 28px; }
+  .stat-item::after { display: none !important; }
+  .testi-inner { padding: 32px 24px; }
+  .testi-text { font-size: 17px; }
+  .footer-top { grid-template-columns: 1fr; gap: 32px; }
+  .footer-brand { grid-column: span 1; }
+  .footer-bottom { flex-direction: column; text-align: center; }
+  .float-card-1, .float-card-2, .float-card-3 { display: none; }
+  .mobile-cta-bar { display: flex; }
+  .floating-btns { bottom: 80px; }
+  .back-top { bottom: 80px; }
+  .faq-q { font-size: 15px; padding: 18px; }
+  .hero-cta .btn { flex: 1; min-width: 0; }
+  .final-cta-buttons .btn { flex: 1; }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+  .bg-blob { animation: none !important; }
+}
+</style>
+</head>
+<body>
+
+<!-- Background decorations -->
+<div class="bg-decor">
+  <div class="bg-blob bg-blob-1"></div>
+  <div class="bg-blob bg-blob-2"></div>
+  <div class="bg-blob bg-blob-3"></div>
+</div>
+<div class="bg-grain"></div>
+
+<!-- Scroll progress -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ============================================ NAVBAR ============================================ -->
+<nav class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="#home" class="logo" aria-label="Azure Dental Clinic">
+      <div class="logo-mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 5.5c-1.5-1.5-3.5-2-5-2-2 0-3.5 1-3.5 3 0 2 .5 4 1.5 6.5.7 1.8 1.5 4 2.5 5.5.7 1 1.5 1.5 2.5 1.5s1.8-.5 2.5-1.5c1-1.5 1.8-3.7 2.5-5.5 1-2.5 1.5-4.5 1.5-6.5 0-2-1.5-3-3.5-3-1.5 0-3.5.5-5 2Z"/>
+          <path d="M12 5.5v15"/>
+        </svg>
+      </div>
+      <div class="logo-text">
+        <span>Azure Dental</span>
+        <small>عيادة أزور لطب الأسنان</small>
+      </div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+      <li><a href="#services" class="nav-link">الخدمات</a></li>
+      <li><a href="#why" class="nav-link">لماذا نحن</a></li>
+      <li><a href="#doctors" class="nav-link">الأطباء</a></li>
+      <li><a href="#testimonials" class="nav-link">آراء العملاء</a></li>
+      <li><a href="#faq" class="nav-link">الأسئلة الشائعة</a></li>
+    </ul>
+
+    <div class="nav-cta">
+      <a href="tel:+201039591109" class="nav-phone">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/>
+        </svg>
+        01039591109
+      </a>
+      <a href="#offer" class="btn btn-primary btn-sm">احجز موعدك</a>
+    </div>
+
+    <button class="mobile-toggle" id="mobileToggle" aria-label="القائمة">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <line x1="4" y1="7" x2="20" y2="7"/>
+        <line x1="4" y1="12" x2="20" y2="12"/>
+        <line x1="4" y1="17" x2="20" y2="17"/>
+      </svg>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" id="mobileClose" aria-label="إغلاق">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+      <line x1="6" y1="6" x2="18" y2="18"/>
+      <line x1="18" y1="6" x2="6" y2="18"/>
+    </svg>
+  </button>
+  <a href="#home" class="nav-link">الرئيسية</a>
+  <a href="#services" class="nav-link">الخدمات</a>
+  <a href="#why" class="nav-link">لماذا نحن</a>
+  <a href="#doctors" class="nav-link">الأطباء</a>
+  <a href="#testimonials" class="nav-link">آراء العملاء</a>
+  <a href="#faq" class="nav-link">الأسئلة الشائعة</a>
+  <a href="#offer" class="btn btn-primary btn-lg" style="margin-top: 16px;">احجز موعدك الآن</a>
+</div>
+
+<!-- ============================================ HERO ============================================ -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="trust-pills">
+          <span class="trust-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> بدون ألم</span>
+          <span class="trust-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg> تعقيم صارم</span>
+          <span class="trust-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg> أحدث التقنيات</span>
+          <span class="trust-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> أطباء متخصصون</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span class="line"><span class="line-inner">الابتسامة التي تستحقها</span></span>
+          <span class="line"><span class="line-inner">تبدأ <span class="gradient-text">هنا</span></span></span>
+        </h1>
+
+        <p class="hero-desc">
+          في Azure Dental Clinic نجمع بين نخبة من أخصائيي مستشفى ميت غمر العام وأحدث تقنيات طب الأسنان لنقدم تجربة علاجية دقيقة، مريحة، وبدون ألم.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#offer" class="btn btn-primary btn-lg magnetic">
+            احجز موعدك الآن
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#services" class="btn btn-ghost btn-lg">
+            استكشف خدماتنا
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          </a>
+        </div>
+
+        <div class="hero-social">
+          <div class="social-item">
+            <strong><span class="gradient-text">+5000</span></strong>
+            <span>مريض سعيد</span>
+          </div>
+          <div class="social-item">
+            <strong><span class="gradient-text">98%</span></strong>
+            <span>رضا العملاء</span>
+          </div>
+          <div class="social-item">
+            <strong><span class="gradient-text">+10</span></strong>
+            <span>سنوات خبرة</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-decor"></div>
+        <div class="hero-image-wrap">
+          <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=900&h=1100&fit=crop&q=80" alt="عيادة أسنان حديثة - Azure Dental Clinic" loading="eager">
+        </div>
+
+        <div class="float-card float-card-1">
+          <div class="float-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <div class="float-card-text">
+            <strong>98%</strong>
+            <span>رضا المرضى</span>
+          </div>
+        </div>
+
+        <div class="float-card float-card-2">
+          <div class="float-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <div class="float-card-text">
+            <strong>+10 سنوات</strong>
+            <span>خبرة طبية</span>
+          </div>
+        </div>
+
+        <div class="float-card float-card-3">
+          <div class="float-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9c1.66 0 3.22.45 4.56 1.24"/></svg>
+          </div>
+          <div class="float-card-text">
+            <strong>أحدث الأجهزة</strong>
+            <span>تقنيات 2024</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ TRUST BAR ============================================ -->
+<section class="trust-bar">
+  <div class="container">
+    <div class="trust-bar-inner stagger">
+      <div class="trust-item">
+        <div class="trust-item-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        </div>
+        <div class="trust-item-text">أحدث تقنيات الأسنان</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-item-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div class="trust-item-text">تعقيم عالمي صارم</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-item-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <div class="trust-item-text">أطباء متخصصون</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-item-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+        <div class="trust-item-text">تجربة مريحة بدون ألم</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-item-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <div class="trust-item-text">مواعيد سريعة ودقيقة</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ LIMITED OFFER ============================================ -->
+<section class="offer" id="offer">
+  <div class="container">
+    <div class="offer-card reveal-scale">
+      <div class="offer-grid">
+        <div class="offer-content">
+          <span class="offer-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            عروض حصرية لفترة محدودة
+          </span>
+          <h2 class="offer-title">احصل على أفضل رعاية طبية بأسعار استثنائية</h2>
+          <p class="offer-desc">
+            عرض خاص لأول 50 حجز — كشف مجاني لمدة شهر كامل، خصم 50٪ على تنظيف الجير والتلميع، وخصم 25٪ على باقي خدماتنا الطبية.
+          </p>
+
+          <div class="offer-perks">
+            <div class="offer-perk">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              كشف مجاني لمدة شهر كامل
+            </div>
+            <div class="offer-perk">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              خصم 50٪ على تنظيف الجير والتلميع
+            </div>
+            <div class="offer-perk">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              خصم 25٪ على باقي الخدمات
+            </div>
+          </div>
+
+          <div class="offer-cta">
+            <a href="https://wa.me/201039591109" class="btn btn-primary btn-lg">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.967-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              تواصل عبر واتساب
+            </a>
+            <a href="tel:+201039591109" class="btn btn-ghost btn-lg">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+              احجز الآن
+            </a>
+          </div>
+        </div>
+
+        <div class="offer-side">
+          <div class="offer-count-label">ينتهي العرض خلال</div>
+          <div class="countdown" id="countdown">
+            <div class="count-box">
+              <div class="count-num" id="cd-days">00</div>
+              <div class="count-label">يوم</div>
+            </div>
+            <div class="count-box">
+              <div class="count-num" id="cd-hours">00</div>
+              <div class="count-label">ساعة</div>
+            </div>
+            <div class="count-box">
+              <div class="count-num" id="cd-mins">00</div>
+              <div class="count-label">دقيقة</div>
+            </div>
+            <div class="count-box">
+              <div class="count-num" id="cd-secs">00</div>
+              <div class="count-label">ثانية</div>
+            </div>
+          </div>
+
+          <div class="urgency">
+            <div class="urgency-head">
+              <span>الحجوزات المتبقية</span>
+              <strong>18 / 50</strong>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ SERVICES BENTO ============================================ -->
+<section class="section services" id="services">
+  <div class="container">
+    <div class="section-head reveal-blur">
+      <span class="eyebrow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        خدماتنا الطبية
+      </span>
+      <h2 class="section-title">خدمات أسنان متكاملة <span class="gradient-text">بمعايير عالمية</span></h2>
+      <p class="section-subtitle">نقدم باقة شاملة من خدمات طب الأسنان التجميلية والعلاجية بأحدث التقنيات وأمهر الأطباء.</p>
+    </div>
+
+    <div class="bento stagger">
+      <article class="service-card">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&h=600&fit=crop&q=80" alt="زراعة الأسنان" loading="lazy">
+          <div class="service-num">01</div>
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5.5c-1.5-1.5-3.5-2-5-2-2 0-3.5 1-3.5 3 0 2 .5 4 1.5 6.5.7 1.8 1.5 4 2.5 5.5.7 1 1.5 1.5 2.5 1.5s1.8-.5 2.5-1.5c1-1.5 1.8-3.7 2.5-5.5 1-2.5 1.5-4.5 1.5-6.5 0-2-1.5-3-3.5-3-1.5 0-3.5.5-5 2Z"/></svg>
+          </div>
+        </div>
+        <div class="service-body">
+          <h3 class="service-title">زراعة الأسنان</h3>
+          <p class="service-desc">زراعة دائمة تعيد الوظيفة الكاملة للأسنان المفقودة بتقنية ألمانية دقيقة.</p>
+          <a href="#offer" class="service-link">اكتشف المزيد
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=600&h=400&fit=crop&q=80" alt="حشوات تجميلية" loading="lazy">
+          <div class="service-num">02</div>
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg>
+          </div>
+        </div>
+        <div class="service-body">
+          <h3 class="service-title">حشوات تجميلية</h3>
+          <p class="service-desc">حشوات بلون الأسنان الطبيعي.</p>
+          <a href="#offer" class="service-link">اكتشف المزيد
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&h=400&fit=crop&q=80" alt="حشو العصب" loading="lazy">
+          <div class="service-num">03</div>
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+        </div>
+        <div class="service-body">
+          <h3 class="service-title">حشو العصب</h3>
+          <p class="service-desc">علاج عصب حديث بدون ألم.</p>
+          <a href="#offer" class="service-link">اكتشف المزيد
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1612368333872-51b9bc3a1b07?w=800&h=400&fit=crop&q=80" alt="تقويم الأسنان" loading="lazy">
+          <div class="service-num">04</div>
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+          </div>
+        </div>
+        <div class="service-body">
+          <h3 class="service-title">تقويم الأسنان</h3>
+          <p class="service-desc">تقويم معدني وشفاف يمنحك ابتسامة متناسقة بأقل وقت ممكن.</p>
+          <a href="#offer" class="service-link">اكتشف المزيد
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1581585099522-f6ac2efe1ff8?w=600&h=400&fit=crop&q=80" alt="تركيبات الأسنان" loading="lazy">
+          <div class="service-num">05</div>
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/></svg>
+          </div>
+        </div>
+        <div class="service-body">
+          <h3 class="service-title">تركيبات الأسنان</h3>
+          <p class="service-desc">تركيبات ثابتة ومتحركة.</p>
+          <a href="#offer" class="service-link">اكتشف المزيد
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1606159284714-78bf3a60d064?w=800&h=400&fit=crop&q=80" alt="تجميل الأسنان - هوليود سمايل" loading="lazy">
+          <div class="service-num">06</div>
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/></svg>
+          </div>
+        </div>
+        <div class="service-body">
+          <h3 class="service-title">تجميل الأسنان</h3>
+          <p class="service-desc">هوليود سمايل، تبييض، وتصميم ابتسامة يتناسب مع ملامحك.</p>
+          <a href="#offer" class="service-link">اكتشف المزيد
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ WHY CHOOSE US ============================================ -->
+<section class="section why" id="why">
+  <div class="container">
+    <div class="section-head center reveal-blur">
+      <span class="eyebrow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        لماذا أزور؟
+      </span>
+      <h2 class="section-title">تجربة طب أسنان <span class="gradient-text">مختلفة تمامًا</span></h2>
+      <p class="section-subtitle" style="margin-inline: auto;">كل تفصيلة في عيادتنا مصممة لتمنحك أعلى مستوى من الراحة والثقة والاحترافية.</p>
+    </div>
+
+    <div class="split reveal">
+      <div class="split-text">
+        <span class="split-eyebrow">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/></svg>
+          نخبة الأطباء
+        </span>
+        <h3 class="split-title">أطباء من نخبة مستشفى ميت غمر العام</h3>
+        <p class="split-desc">فريقنا الطبي يضم أخصائيين معتمدين بخبرات طويلة في مختلف فروع طب الأسنان، يتم اختيارهم بعناية فائقة لضمان أعلى مستوى من الرعاية لكل مريض.</p>
+        <div class="split-features">
+          <div class="split-feature">
+            <span class="split-feature-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            أخصائيون معتمدون في جميع فروع طب الأسنان
+          </div>
+          <div class="split-feature">
+            <span class="split-feature-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            خبرة تزيد عن 10 سنوات في علاج الحالات المعقدة
+          </div>
+          <div class="split-feature">
+            <span class="split-feature-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            تطوير مستمر ومتابعة أحدث الأبحاث الطبية
+          </div>
+        </div>
+        <a href="#doctors" class="btn btn-primary">تعرّف على أطبائنا
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="split-visual">
+        <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=800&h=600&fit=crop&q=80" alt="طبيب أسنان محترف" loading="lazy">
+        <div class="split-visual-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          معتمدون
+        </div>
+      </div>
+    </div>
+
+    <div class="split reverse reveal">
+      <div class="split-text">
+        <span class="split-eyebrow">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          بدون ألم
+        </span>
+        <h3 class="split-title">تقنيات تخدير حديثة لتجربة بدون ألم</h3>
+        <p class="split-desc">نستخدم أحدث تقنيات التخدير الموضعي والطرق الحديثة في علاج الأسنان لضمان تجربة مريحة تمامًا حتى لأكثر المرضى حساسية للألم.</p>
+        <div class="split-features">
+          <div class="split-feature">
+            <span class="split-feature-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            تخدير موضعي بأحدث التقنيات الألمانية
+          </div>
+          <div class="split-feature">
+            <span class="split-feature-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            علاج عصب بدون ألم بتقنية الـ Rotary Endodontics
+          </div>
+          <div class="split-feature">
+            <span class="split-feature-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            بيئة مريحة تقلل القلق والتوتر
+          </div>
+        </div>
+        <a href="#offer" class="btn btn-primary">احجز تجربتك
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="split-visual">
+        <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&h=600&fit=crop&q=80" alt="علاج أسنان بدون ألم" loading="lazy">
+        <div class="split-visual-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          بدون ألم
+        </div>
+      </div>
+    </div>
+
+    <div class="split reveal">
+      <div class="split-text">
+        <span class="split-eyebrow">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          تعقيم صارم
+        </span>
+        <h3 class="split-title">بروتوكول تعقيم يفوق المعايير العالمية</h3>
+        <p class="split-desc">نتبع بروتوكول تعقيم صارمًا وفق المعايير الأوروبية، مع استخدام أجهزة أوتوكلاف حديثة وتغليف معقم لكل أدوات لضمان أمان كامل لكل مريض.</p>
+        <div class="split-features">
+          <div class="split-feature">
+            <span class="split-feature-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            أجهزة أوتوكلاف معتمدة دوليًا
+          </div>
+          <div class="split-feature">
+            <span class="split-feature-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            تغليف معقم لكل أدوات لكل مريض
+          </div>
+          <div class="split-feature">
+            <span class="split-feature-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            غرف تعقيم منفصلة ومراقبة
+          </div>
+        </div>
+        <a href="#offer" class="btn btn-primary">احجز موعدك
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="split-visual">
+        <img src="https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=800&h=600&fit=crop&q=80" alt="تعقيم أدوات طب الأسنان" loading="lazy">
+        <div class="split-visual-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          100% معقم
+        </div>
+      </div>
+    </div>
+
+    <div class="split reverse reveal">
+      <div class="split-text">
+        <span class="split-eyebrow">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          أحدث الأجهزة
+        </span>
+        <h3 class="split-title">تقنيات تشخيص وعلاج بمعايير 2024</h3>
+        <p class="split-desc">نعتمد على أحدث أجهزة الأشعة الرقمية والكاميرات داخل الفم ووحدات الأسنان المتطورة لتقديم تشخيص دقيق وعلاج فعال بأقل قدر من الانزعاج.</p>
+        <div class="split-features">
+          <div class="split-feature">
+            <span class="split-feature-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            أشعة رقمية بتقنية CBCT ثلاثية الأبعاد
+          </div>
+          <div class="split-feature">
+            <span class="split-feature-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            كاميرات داخل الفم عالية الدقة
+          </div>
+          <div class="split-feature">
+            <span class="split-feature-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            وحدات أسنان إيطالية بأحدث المواصفات
+          </div>
+        </div>
+        <a href="#offer" class="btn btn-primary">اكتشف الفرق
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="split-visual">
+        <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&h=600&fit=crop&q=80" alt="أحدث أجهزة طب الأسنان" loading="lazy">
+        <div class="split-visual-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          تقنيات 2024
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ BEFORE & AFTER ============================================ -->
+<section class="section ba-section">
+  <div class="container">
+    <div class="section-head center reveal-blur">
+      <span class="eyebrow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+        نتائج حقيقية
+      </span>
+      <h2 class="section-title">قبل وبعد — <span class="gradient-text">فارق تراه بعينك</span></h2>
+      <p class="section-subtitle" style="margin-inline: auto;">اسحب الشريط لترى الفرق الذي تحدثه علاجاتنا التجميلية في ابتسامة مرضانا.</p>
+    </div>
+
+    <div class="ba-slider reveal-scale" id="baSlider">
+      <img class="ba-img ba-before" src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=1200&h=750&fit=crop&q=80" alt="قبل العلاج" draggable="false">
+      <img class="ba-img ba-after" src="https://images.unsplash.com/photo-1581585099522-f6ac2efe1ff8?w=1200&h=750&fit=crop&q=80" alt="بعد العلاج" draggable="false">
+      <span class="ba-label ba-label-before">قبل</span>
+      <span class="ba-label ba-label-after">بعد</span>
+      <div class="ba-handle" id="baHandle">
+        <div class="ba-handle-knob">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/><polyline points="9 18 15 12 9 6" transform="translate(8 0)"/></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ PROCESS ============================================ -->
+<section class="section process">
+  <div class="container">
+    <div class="section-head center reveal-blur">
+      <span class="eyebrow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+        رحلة المريض
+      </span>
+      <h2 class="section-title">أربع خطوات بسيطة <span class="gradient-text">نحو ابتسامة جديدة</span></h2>
+      <p class="section-subtitle" style="margin-inline: auto;">من أول تواصل حتى الابتسامة النهائية، نهتم بكل تفصيلة في رحلتك معنا.</p>
+    </div>
+
+    <div class="timeline stagger">
+      <div class="timeline-step">
+        <div class="step-num">
+          1
+          <div class="step-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+        </div>
+        <h4 class="step-title">احجز موعدك</h4>
+        <p class="step-desc">تواصل عبر واتساب أو اتصال واحجز موعدك في دقائق.</p>
+      </div>
+      <div class="timeline-step">
+        <div class="step-num">
+          2
+          <div class="step-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+        </div>
+        <h4 class="step-title">الكشف والاستشارة</h4>
+        <p class="step-desc">فحص شامل وخطة علاج مخصصة تناسب حالتك.</p>
+      </div>
+      <div class="timeline-step">
+        <div class="step-num">
+          3
+          <div class="step-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+        </div>
+        <h4 class="step-title">العلاج</h4>
+        <p class="step-desc">جلسات علاج مريحة بأحدث التقنيات وبدون ألم.</p>
+      </div>
+      <div class="timeline-step">
+        <div class="step-num">
+          4
+          <div class="step-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+        </div>
+        <h4 class="step-title">ابتسامة صحية</h4>
+        <p class="step-desc">استمتع بابتسامتك الجديدة مع متابعة دورية.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ DOCTORS ============================================ -->
+<section class="section doctors" id="doctors">
+  <div class="container">
+    <div class="section-head reveal-blur">
+      <span class="eyebrow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/></svg>
+        فريقنا الطبي
+      </span>
+      <h2 class="section-title">أطباء تستحق <span class="gradient-text">ثقتك الكاملة</span></h2>
+      <p class="section-subtitle">نخبة من أخصائيي طب الأسنان بخبرات واسعة وتخصصات متنوعة.</p>
+    </div>
+
+    <div class="doctors-grid stagger">
+      <article class="doctor-card">
+        <div class="doctor-photo">
+          <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&h=750&fit=crop&q=80" alt="د. أحمد سمير" loading="lazy">
+          <span class="doctor-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            استشاري
+          </span>
+        </div>
+        <div class="doctor-body">
+          <h3 class="doctor-name">د. أحمد سمير</h3>
+          <p class="doctor-spec">استشاري زراعة الأسنان</p>
+          <p class="doctor-bio">خبرة 12 عامًا في زراعة الأسنان وتقويمها، عضو الجمعية المصرية لزراعة الأسنان.</p>
+          <div class="doctor-meta">
+            <span class="doctor-meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              12 سنة خبرة
+            </span>
+            <span class="doctor-meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              معتمد
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="doctor-card">
+        <div class="doctor-photo">
+          <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&h=750&fit=crop&q=80" alt="د. سارة محمود" loading="lazy">
+          <span class="doctor-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            أخصائي
+          </span>
+        </div>
+        <div class="doctor-body">
+          <h3 class="doctor-name">د. سارة محمود</h3>
+          <p class="doctor-spec">أخصائية تجميل الأسنان</p>
+          <p class="doctor-bio">متخصصة في هوليود سمايل وتصميم الابتسامة، خبرة 9 سنوات في التجميل الحديث.</p>
+          <div class="doctor-meta">
+            <span class="doctor-meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              9 سنوات خبرة
+            </span>
+            <span class="doctor-meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              معتمدة
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="doctor-card">
+        <div class="doctor-photo">
+          <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=600&h=750&fit=crop&q=80" alt="د. محمود عبد الله" loading="lazy">
+          <span class="doctor-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            استشاري
+          </span>
+        </div>
+        <div class="doctor-body">
+          <h3 class="doctor-name">د. محمود عبد الله</h3>
+          <p class="doctor-spec">استشاري تقويم الأسنان</p>
+          <p class="doctor-bio">خبرة 15 عامًا في تقويم الأسنان المعدني والشفاف، عضو جمعية تقويم الأسنان الدولية.</p>
+          <div class="doctor-meta">
+            <span class="doctor-meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              15 سنة خبرة
+            </span>
+            <span class="doctor-meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              معتمد
+            </span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ STATISTICS ============================================ -->
+<section class="section stats">
+  <div class="container">
+    <div class="stats-grid stagger">
+      <div class="stat-item">
+        <div class="stat-num" data-target="5000" data-suffix="+">0</div>
+        <div class="stat-label">مريض سعيد</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-target="98" data-suffix="%">0</div>
+        <div class="stat-label">رضا العملاء</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-target="10" data-suffix="+">0</div>
+        <div class="stat-label">سنوات خبرة</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-target="100" data-suffix="%">0</div>
+        <div class="stat-label">معايير التعقيم</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ TESTIMONIALS ============================================ -->
+<section class="section testimonials" id="testimonials">
+  <div class="container">
+    <div class="section-head center reveal-blur">
+      <span class="eyebrow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        آراء العملاء
+      </span>
+      <h2 class="section-title">قصص حقيقية من <span class="gradient-text">مرضانا السعداء</span></h2>
+      <p class="section-subtitle" style="margin-inline: auto;">ثقة مرضانا هي أعظم إنجازاتنا — اقرأ تجاربهم معنا.</p>
+    </div>
+
+    <div class="testi-carousel reveal-scale">
+      <div class="testi-track" id="testiTrack">
+        <div class="testi-card">
+          <div class="testi-inner">
+            <div class="testi-quote-mark">"</div>
+            <div class="testi-stars">
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p class="testi-text">"تجربة رائعة جداً، الدكاترة محترفين والمكان نظيف جداً. أنصح بالعيادة بشدة، شكراً أزور!"</p>
+            <div class="testi-author">
+              <div class="testi-avatar">أ</div>
+              <div class="testi-author-info">
+                <div class="testi-author-name">أحمد م.</div>
+                <div class="testi-author-role">مريض زراعة أسنان</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-inner">
+            <div class="testi-quote-mark">"</div>
+            <div class="testi-stars">
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p class="testi-text">"كنت خايف جداً من علاج العصب لكن التجربة كانت مريحة للغاية ولم أشعر بأي ألم. فريق محترف بكل معنى الكلمة."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">س</div>
+              <div class="testi-author-info">
+                <div class="testi-author-name">سارة ك.</div>
+                <div class="testi-author-role">علاج عصب</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-inner">
+            <div class="testi-quote-mark">"</div>
+            <div class="testi-stars">
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p class="testi-text">"عملت زراعة أسنان والنتيجة فاقت توقعاتي. التنظيم والالتزام بالمواعيد ممتاز. أنصف الجميع بالذهاب لأزور."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">م</div>
+              <div class="testi-author-info">
+                <div class="testi-author-name">محمود ع.</div>
+                <div class="testi-author-role">زراعة أسنان</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-nav">
+        <button class="testi-btn" id="testiPrev" aria-label="السابق">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+        <div class="testi-dots" id="testiDots">
+          <span class="testi-dot active" data-index="0"></span>
+          <span class="testi-dot" data-index="1"></span>
+          <span class="testi-dot" data-index="2"></span>
+        </div>
+        <button class="testi-btn" id="testiNext" aria-label="التالي">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ FAQ ============================================ -->
+<section class="section faq" id="faq">
+  <div class="container">
+    <div class="section-head center reveal-blur">
+      <span class="eyebrow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        الأسئلة الشائعة
+      </span>
+      <h2 class="section-title">إجابات على <span class="gradient-text">أسئلتك المتكررة</span></h2>
+      <p class="section-subtitle" style="margin-inline: auto;">جمعنا لك أكثر الأسئلة شيوعًا قبل زيارة عيادتنا.</p>
+    </div>
+
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button class="faq-q">
+          هل العلاج مؤلم؟
+          <span class="faq-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">نستخدم أحدث تقنيات التخدير الموضعي والطرق الحديثة في العلاج لضمان تجربة مريحة تمامًا وبدون ألم. معظم مرضانا يخرجون من العيادة مندهشين من عدم شعورهم بأي انزعاج خلال العلاج.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q">
+          كم تستغرق الجلسة الواحدة؟
+          <span class="faq-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">تختلف مدة الجلسة حسب نوع العلاج، لكن الكشف الدوري يستغرق عادة 30 دقيقة، وعلاج الحشوات من 45 دقيقة إلى ساعة. العلاجات الأكثر تعقيدًا مثل زراعة الأسنان قد تتطلب جلسات متعددة.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q">
+          هل يوجد تقسيط للعلاج؟
+          <span class="faq-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">نعم، نوفر أنظمة تقسيط مرنة على العلاجات الكبرى مثل زراعة الأسنان والتقويم. تواصل مع فريقنا عبر واتساب لمعرفة التفاصيل الكاملة للأنظمة المتاحة.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q">
+          ما هي ساعات العمل في العيادة؟
+          <span class="faq-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">نعمل يوميًا من الساعة 2 ظهرًا حتى 10 مساءً عدا يوم الجمعة. يمكنك الحجز في الوقت الذي يناسبك عبر واتساب أو الاتصال المباشر.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q">
+          هل يمكن الحجز عبر واتساب؟
+          <span class="faq-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">بالتأكيد! يمكنك الحجز مباشرة عبر واتساب على رقم 01039591109، وسيرد عليك فريقنا في أسرع وقت لتحديد الموعد المناسب لك.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ FINAL CTA ============================================ -->
+<section class="final-cta">
+  <div class="container">
+    <div class="final-cta-inner reveal-scale">
+      <h2 class="final-cta-title">ابتسامتك الجديدة تبدأ <span class="gradient-text">بخطوة واحدة</span></h2>
+      <p class="final-cta-desc">احجز موعدك الآن ودع فريق Azure Dental Clinic يمنحك تجربة علاجية استثنائية تليق بك.</p>
+
+      <div class="final-cta-buttons">
+        <a href="tel:+201039591109" class="btn btn-primary btn-lg magnetic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+          احجز الآن
+        </a>
+        <a href="https://wa.me/201039591109" class="btn btn-whatsapp btn-lg">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.967-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          تواصل عبر واتساب
+        </a>
+      </div>
+
+      <div class="final-cta-trust">
+        <div class="fct-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          تعقيم معتمد
+        </div>
+        <div class="fct-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          علاج بدون ألم
+        </div>
+        <div class="fct-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+          أطباء متخصصون
+        </div>
+        <div class="fct-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          مواعيد سريعة
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ FOOTER ============================================ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <div class="logo-mark">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 5.5c-1.5-1.5-3.5-2-5-2-2 0-3.5 1-3.5 3 0 2 .5 4 1.5 6.5.7 1.8 1.5 4 2.5 5.5.7 1 1.5 1.5 2.5 1.5s1.8-.5 2.5-1.5c1-1.5 1.8-3.7 2.5-5.5 1-2.5 1.5-4.5 1.5-6.5 0-2-1.5-3-3.5-3-1.5 0-3.5.5-5 2Z"/>
+              <path d="M12 5.5v15"/>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <span>Azure Dental</span>
+            <small>عيادة أزور لطب الأسنان</small>
+          </div>
+        </a>
+        <p class="footer-desc">عيادة أزور لطب الأسنان في ميت غمر — نجمع بين نخبة الأطباء وأحدث التقنيات لنقدم تجربة علاجية استثنائية بدون ألم.</p>
+
+        <div class="footer-contact">
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <strong>العنوان</strong>
+              ميت غمر — شارع 26 يوليو، برج فريدة، أمام سلم المنصورة، خلف صيدلية وجيه
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            <div>
+              <strong>الهاتف</strong>
+              01039591109
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <div>
+              <strong>ساعات العمل</strong>
+              2 ظهرًا — 10 مساءً (عدا الجمعة)
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>روابط سريعة</h4>
+        <ul class="footer-links">
+          <li><a href="#home">الرئيسية <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a></li>
+          <li><a href="#services">الخدمات <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a></li>
+          <li><a href="#offer">العروض <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a></li>
+          <li><a href="#doctors">الأطباء <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a></li>
+          <li><a href="#testimonials">آراء العملاء <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>خدماتنا</h4>
+        <ul class="footer-links">
+          <li><a href="#services">زراعة الأسنان <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a></li>
+          <li><a href="#services">تقويم الأسنان <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a></li>
+          <li><a href="#services">هوليود سمايل <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a></li>
+          <li><a href="#services">حشو العصب <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a></li>
+          <li><a href="#services">تركيبات الأسنان <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>تواصل معنا</h4>
+        <ul class="footer-links">
+          <li><a href="https://wa.me/201039591109">واتساب <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a></li>
+          <li><a href="tel:+201039591109">اتصال مباشر <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a></li>
+          <li><a href="https://maps.google.com">موقع جوجل مابس <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a></li>
+        </ul>
+        <div class="footer-social">
+          <a href="https://wa.me/201039591109" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.967-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+          <a href="tel:+201039591109" aria-label="Phone">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+          </a>
+          <a href="https://maps.google.com" aria-label="Location">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>&copy; 2024 Azure Dental Clinic — جميع الحقوق محفوظة</div>
+      <div class="footer-bottom-links">
+        <a href="#">سياسة الخصوصية</a>
+        <a href="#">الشروط والأحكام</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================ FLOATING BUTTONS ============================================ -->
+<div class="floating-btns">
+  <a href="https://wa.me/201039591109" class="float-btn float-btn-whatsapp" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.967-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="float-btn-label">تواصل عبر واتساب</span>
+  </a>
+  <a href="tel:+201039591109" class="float-btn float-btn-call" aria-label="Call">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+    <span class="float-btn-label">اتصل بنا</span>
+  </a>
+</div>
+
+<!-- Back to top -->
+<button class="back-top" id="backTop" aria-label="العودة للأعلى">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<!-- Mobile sticky CTA -->
+<div class="mobile-cta-bar">
+  <a href="tel:+201039591109" class="btn btn-ghost btn-sm">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+    اتصل
+  </a>
+  <a href="https://wa.me/201039591109" class="btn btn-whatsapp btn-sm">
+    <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.967-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    احجز الآن
+  </a>
+</div>
+
+<!-- ============================================ JAVASCRIPT ============================================ -->
+<script>
+(function() {
+  'use strict';
+
+  /* ============ NAVBAR SCROLL ============ */
+  const navbar = document.getElementById('navbar');
+  const scrollProgress = document.getElementById('scrollProgress');
+  const backTop = document.getElementById('backTop');
+
+  function onScroll() {
+    const sc = window.pageYOffset || document.documentElement.scrollTop;
+    // Navbar shrink + glass
+    if (sc > 30) navbar.classList.add('scrolled');
+    else navbar.classList.remove('scrolled');
+
+    // Scroll progress
+    const docH = document.documentElement.scrollHeight - window.innerHeight;
+    const pct = docH > 0 ? (sc / docH) * 100 : 0;
+    scrollProgress.style.width = pct + '%';
+
+    // Back to top
+    if (sc > 600) backTop.classList.add('show');
+    else backTop.classList.remove('show');
+
+    // Active nav link
+    updateActiveNav();
+  }
+
+  /* ============ ACTIVE NAV ON SCROLL ============ */
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-link');
+  function updateActiveNav() {
+    let current = '';
+    sections.forEach(sec => {
+      const top = sec.offsetTop - 120;
+      if (window.pageYOffset >= top) current = sec.id;
+    });
+    navLinks.forEach(link => {
+      link.classList.remove('active');
+      if (link.getAttribute('href') === '#' + current) link.classList.add('active');
+    });
+  }
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  /* ============ MOBILE MENU ============ */
+  const mobileToggle = document.getElementById('mobileToggle');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const mobileClose = document.getElementById('mobileClose');
+
+  mobileToggle.addEventListener('click', () => mobileMenu.classList.add('open'));
+  mobileClose.addEventListener('click', () => mobileMenu.classList.remove('open'));
+  mobileMenu.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => mobileMenu.classList.remove('open'));
+  });
+
+  /* ============ BACK TO TOP ============ */
+  backTop.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  /* ============ SCROLL REVEAL ============ */
+  const revealEls = document.querySelectorAll('.reveal, .reveal-blur, .reveal-scale, .stagger');
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('revealed');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
+
+  revealEls.forEach(el => revealObserver.observe(el));
+
+  /* ============ COUNT-UP STATISTICS ============ */
+  const statNums = document.querySelectorAll('.stat-num');
+  const statObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        const target = parseInt(el.dataset.target, 10);
+        const suffix = el.dataset.suffix || '';
+        const duration = 1800;
+        const startTime = performance.now();
+
+        function update(now) {
+          const elapsed = now - startTime;
+          const progress = Math.min(elapsed / duration, 1);
+          // easeOutQuart
+          const eased = 1 - Math.pow(1 - progress, 4);
+          const value = Math.floor(target * eased);
+          el.textContent = value.toLocaleString('en-US') + suffix;
+          if (progress < 1) requestAnimationFrame(update);
+          else el.textContent = target.toLocaleString('en-US') + suffix;
+        }
+        requestAnimationFrame(update);
+        statObserver.unobserve(el);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  statNums.forEach(el => statObserver.observe(el));
+
+  /* ============ COUNTDOWN TIMER ============ */
+  // Set countdown to 5 days from first visit (persisted in localStorage)
+  const COUNTDOWN_KEY = 'azure_countdown_end';
+  let endTime = parseInt(localStorage.getItem(COUNTDOWN_KEY), 10);
+  if (!endTime || isNaN(endTime) || endTime < Date.now()) {
+    endTime = Date.now() + (5 * 24 * 60 * 60 * 1000) + (8 * 60 * 60 * 1000) + (42 * 60 * 1000); // 5d 8h 42m
+    localStorage.setItem(COUNTDOWN_KEY, endTime);
+  }
+
+  const cdDays = document.getElementById('cd-days');
+  const cdHours = document.getElementById('cd-hours');
+  const cdMins = document.getElementById('cd-mins');
+  const cdSecs = document.getElementById('cd-secs');
+
+  function pad(n) { return String(n).padStart(2, '0'); }
+
+  function updateCountdown() {
+    const diff = endTime - Date.now();
+    if (diff <= 0) {
+      // Reset for another 5 days
+      endTime = Date.now() + (5 * 24 * 60 * 60 * 1000);
+      localStorage.setItem(COUNTDOWN_KEY, endTime);
+      return;
+    }
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const secs = Math.floor((diff % (1000 * 60)) / 1000);
+    cdDays.textContent = pad(days);
+    cdHours.textContent = pad(hours);
+    cdMins.textContent = pad(mins);
+    cdSecs.textContent = pad(secs);
+  }
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+
+  /* ============ BEFORE & AFTER SLIDER ============ */
+  const baSlider = document.getElementById('baSlider');
+  const baHandle = document.getElementById('baHandle');
+  const baBefore = baSlider.querySelector('.ba-before');
+
+  let baActive = false;
+
+  function setBA(pos) {
+    // pos is percentage 0-100 from LEFT
+    const clamped = Math.max(0, Math.min(100, pos));
+    baBefore.style.clipPath = `inset(0 ${100 - clamped}% 0 0)`;
+    baHandle.style.left = clamped + '%';
+  }
+
+  function updateBAFromEvent(clientX) {
+    const rect = baSlider.getBoundingClientRect();
+    const x = clientX - rect.left;
+    const pct = (x / rect.width) * 100;
+    setBA(pct);
+  }
+
+  baSlider.addEventListener('mousedown', (e) => {
+    baActive = true;
+    updateBAFromEvent(e.clientX);
+  });
+  window.addEventListener('mousemove', (e) => {
+    if (baActive) updateBAFromEvent(e.clientX);
+  });
+  window.addEventListener('mouseup', () => { baActive = false; });
+
+  baSlider.addEventListener('touchstart', (e) => {
+    baActive = true;
+    updateBAFromEvent(e.touches[0].clientX);
+  }, { passive: true });
+  window.addEventListener('touchmove', (e) => {
+    if (baActive) updateBAFromEvent(e.touches[0].clientX);
+  }, { passive: true });
+  window.addEventListener('touchend', () => { baActive = false; });
+
+  // Initial position at 50%
+  setBA(50);
+
+  /* ============ TESTIMONIALS CAROUSEL ============ */
+  const track = document.getElementById('testiTrack');
+  const dots = document.querySelectorAll('.testi-dot');
+  const prevBtn = document.getElementById('testiPrev');
+  const nextBtn = document.getElementById('testiNext');
+  let testiIndex = 0;
+  const total = dots.length;
+
+  function goTesti(i) {
+    testiIndex = (i + total) % total;
+    // RTL: move track to the right (positive translateX)
+    track.style.transform = `translateX(${testiIndex * 100}%)`;
+    dots.forEach((d, idx) => {
+      d.classList.toggle('active', idx === testiIndex);
+    });
+  }
+
+  prevBtn.addEventListener('click', () => goTesti(testiIndex - 1));
+  nextBtn.addEventListener('click', () => goTesti(testiIndex + 1));
+  dots.forEach((d, idx) => {
+    d.addEventListener('click', () => goTesti(idx));
+  });
+
+  // Auto-rotate every 6s
+  let testiTimer = setInterval(() => goTesti(testiIndex + 1), 6000);
+  const carousel = document.querySelector('.testi-carousel');
+  carousel.addEventListener('mouseenter', () => clearInterval(testiTimer));
+  carousel.addEventListener('mouseleave', () => {
+    testiTimer = setInterval(() => goTesti(testiIndex + 1), 6000);
+  });
+
+  /* ============ FAQ ACCORDION ============ */
+  const faqItems = document.querySelectorAll('.faq-item');
+  faqItems.forEach(item => {
+    const q = item.querySelector('.faq-q');
+    const a = item.querySelector('.faq-a');
+    q.addEventListener('click', () => {
+      const isOpen = item.classList.contains('open');
+      faqItems.forEach(other => {
+        other.classList.remove('open');
+        other.querySelector('.faq-a').style.maxHeight = null;
+      });
+      if (!isOpen) {
+        item.classList.add('open');
+        a.style.maxHeight = a.scrollHeight + 'px';
+      }
+    });
+  });
+
+  /* ============ MAGNETIC BUTTONS ============ */
+  const magnetics = document.querySelectorAll('.magnetic');
+  const isDesktop = window.matchMedia('(min-width: 1024px) and (hover: hover)').matches;
+
+  if (isDesktop) {
+    magnetics.forEach(btn => {
+      btn.addEventListener('mousemove', (e) => {
+        const rect = btn.getBoundingClientRect();
+        const x = e.clientX - rect.left - rect.width / 2;
+        const y = e.clientY - rect.top - rect.height / 2;
+        const strength = 0.18;
+        btn.style.transform = `translate(${x * strength}px, ${y * strength}px) translateY(-2px)`;
+      });
+      btn.addEventListener('mouseleave', () => {
+        btn.style.transform = '';
+      });
+    });
+  }
+
+  /* ============ SUBTLE PARALLAX ON HERO FLOAT CARDS ============ */
+  const floatCards = document.querySelectorAll('.float-card');
+  const heroVisual = document.querySelector('.hero-visual');
+
+  if (isDesktop && heroVisual) {
+    heroVisual.addEventListener('mousemove', (e) => {
+      const rect = heroVisual.getBoundingClientRect();
+      const x = (e.clientX - rect.left - rect.width / 2) / rect.width;
+      const y = (e.clientY - rect.top - rect.height / 2) / rect.height;
+      floatCards.forEach((card, idx) => {
+        const depth = (idx + 1) * 6;
+        card.style.transform = `translate(${x * depth}px, ${y * depth}px)`;
+      });
+    });
+    heroVisual.addEventListener('mouseleave', () => {
+      floatCards.forEach(card => { card.style.transform = ''; });
+    });
+  }
+
+  /* ============ SMOOTH SCROLL FOR ANCHOR LINKS ============ */
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', (e) => {
+      const href = link.getAttribute('href');
+      if (href === '#' || href.length < 2) return;
+      const target = document.querySelector(href);
+      if (target) {
+        e.preventDefault();
+        const offset = 80;
+        const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+        window.scrollTo({ top, behavior: 'smooth' });
+      }
+    });
+  });
+
+  /* ============ PREVENT IMAGE DRAG ============ */
+  document.querySelectorAll('img').forEach(img => {
+    img.setAttribute('draggable', 'false');
+  });
+
+})();
+</script>
+
+</body>
+</html>
